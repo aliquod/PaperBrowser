@@ -136,9 +136,9 @@ def main():
     # print(json.dumps(data, sort_keys=True, indent=4))
 
     # instructions
-    inst1 = Label(root, text='Choose the paper, and open with double click,')
+    inst1 = Label(root, text='Open with link with a double click, or select')
     inst1.grid(row=0,column=0,columnspan=3)
-    inst2 = Label(root, text='or select multiple files and press ENTER to open all.')
+    inst2 = Label(root, text='any number of files and press ENTER to open all.')
     inst2.grid(row=1,column=0,columnspan=3)
 
     # dropdown menu for selecting the term
